@@ -84,3 +84,20 @@ if st.button('Show Recommendation'):
     with col5:
         st.text(names[4])
         st.image(posters[4])
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 10px;
+        right: 15px;
+        font-size: 14px;
+        color: gray;
+    }
+    </style>
+    <div class="footer">
+        ~ Made by Harshvardhan Modi🔥
+    </div>
+    """,
+    unsafe_allow_html=True
+)
